@@ -52,4 +52,3 @@ git clone https://github.com/Tpolite4/secret-santa-matcher
 cd secret-santa-matcher
 npm install
 
-### Installation
