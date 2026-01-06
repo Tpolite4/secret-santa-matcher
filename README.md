@@ -1,57 +1,54 @@
-# scratchProj
+# Secret Santa Matcher
 
-**Problem:**
-Remove the work of assigning Secret Santas and maintain anonymity.
+## Overview
+**Problem:** Manually assigning Secret Santa matches is time-consuming, error-prone, and risks breaking anonymity in larger groups.
 
-**Solution:**
-Web app allows users to create groups for Secret Santa events. The app will automatically assign users their Secret Santa matches anonymously.
+**Solution:** Secret Santa Matcher is a full-stack web application that allows users to create groups for Secret Santa events and automatically assigns anonymous matches, removing manual coordination entirely.
 
-**MVP:**
-Front End:
+---
 
-1. Creation of Sign-Up and Log-In functionality
-   - Refer to Login.tsx and Signup.tsx
-   - Utilized react, react-dom, and react-router-dom to create dynamic website. 
-        - https://www.geeksforgeeks.org/what-is-react-router-dom/
-        - https://www.freecodecamp.org/news/how-to-use-react-router-version-6/
-   - Utilized useState, useEffect, and useNavigate to effectively change states of elements.
-        - https://react.dev/reference/react/useState
-   -
-   -
-2. Creation of Profile and Group Pages
-   -
-   -
-   -
-   -
-   -
-3. Creation of Randomizer functionality
-   -
-   -
-   -
-   -
-4. Creation of Event Dashboard Page - - - -
-   Back End:
-5. ## Connected to PostgreSQL
-   -
-   -
-   -
-   -
+## Features
+- User authentication (Sign Up / Log In)
+- User profiles and group creation
+- Anonymous Secret Santa assignment logic
+- Event dashboard for managing exchanges
+- Secure backend with PostgreSQL persistence
 
-# To Run Application:
+---
 
-1.Clone this reposity
-2.Install dependencies :
-    - Webpack
-    - Babel
-    - Typescript and its loaders
-    - React
-    - Express
+## Tech Stack
+**Frontend**
+- React
+- React Router (v6)
+- TypeScript
+- Webpack
 
-```npm install```
-        
-3.Start the application:
-```npm start```
-4.Navigate to the Backend: - Opens Server
+**Backend**
+- Node.js
+- Express
+- PostgreSQL
 
-```cd backend```
-```npm server```
+---
+
+## Implementation Details
+- Built dynamic routing and navigation using `react-router-dom`
+- Managed component state and lifecycle with `useState` and `useEffect`
+- Implemented programmatic navigation with `useNavigate`
+- Designed relational schemas in PostgreSQL to ensure data integrity
+- Structured frontend and backend as separate services for scalability
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm
+- PostgreSQL
+
+### Installation
+```bash
+git clone https://github.com/Tpolite4/secret-santa-matcher
+cd secret-santa-matcher
+npm install
+
